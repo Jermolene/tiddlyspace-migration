@@ -45,24 +45,24 @@ The main **index.js** file contains a simple command interpreter that supports t
 
 Download each space listed in a **.multids** file
 
-	node index.js download-spaces &lt;spacesFilepath&gt; &lt;destPath&gt; &lt;loginUsername&gt; &lt;loginPassword&gt;
+	node index.js download-spaces <spacesFilepath> <destPath> <loginUsername> <loginPassword>
 
 ### **download-space**
 
 Download a specified space
 
-	node index.js download-space &lt;spaceName&gt; &lt;destPath&gt; &lt;loginUsername&gt; &lt;loginPassword&gt;
+	node index.js download-space <spaceName> <destPath> <loginUsername> <loginPassword>
 
 ### **bake-wikis**
 
 Bake each wiki listed in a **.multids** file
 
-	node index.js bake-wikis &lt;spacesFilepath&gt; &lt;sourceFilesPath&gt; &lt;destPath&gt;
+	node index.js bake-wikis <spacesFilepath> <sourceFilesPath> <destPath>
 
 ### **bake-wiki**
 
 Bake a specified wiki
 
-	node index.js bake-wiki &lt;spaceName&gt; &lt;sourceFilesPath&gt; &lt;destPath&gt;
+	node index.js bake-wiki <spaceName> <sourceFilesPath> <destPath>
 
 
